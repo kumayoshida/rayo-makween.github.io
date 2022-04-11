@@ -1,0 +1,172 @@
+.logo {
+    width: 70px;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    width: 100%;
+    height: 100%;
+    background-color: dimgray;
+}
+
+.carou {
+    width: 900px;
+    height: 600px;
+}
+
+.imgmeca {
+    width: 500px;
+    height: 350px;
+}
+
+.borde2 {
+    border-style: solid;
+    color: rgb(0, 0, 0)
+}
+
+@media(max-width:700px) {
+    .imgcarrusel {
+        width: 300px;
+        height: 200px;
+    }
+
+    .imgmeca {
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
+
+.fuentep {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.fuentep2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: rgb(2, 51, 13);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold
+}
+
+.centrado {
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1 {
+    
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: cadetblue;
+}
+
+@media(min-width:768px) {
+    .formulario {
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+.incio {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header{
+    display: flex;
+    height: 330px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(0, 0, 0);
+}
+
