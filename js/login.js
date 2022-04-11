@@ -7,6 +7,11 @@ function ir() {
         alert("incio de session exitosamente");
         window.location = "../index.html"; 
     }
+    if (user == "user" && pass =="123") {
+        alert("incio de session exitosamente");
+        window.location = "../index.html"; 
+    }
+    
     else{
         alert("usario o contraseña incorrecta");
     }
